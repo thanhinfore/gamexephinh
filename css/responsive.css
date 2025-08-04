@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(10, 30px);
+        grid-template-rows: repeat(10, 30px);
+    }
+
+    .grid-cell,
+    .block-cell {
+        width: 30px;
+        height: 30px;
+    }
+
+    .blocks-queue {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+}
