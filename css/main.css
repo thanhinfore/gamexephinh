@@ -18,6 +18,7 @@ body {
     gap: 10px;
 }
 
+
 .game-header, .game-controls {
     display: flex;
     justify-content: space-between;

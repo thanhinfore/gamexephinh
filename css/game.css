@@ -1,34 +1,24 @@
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(10, 40px);
-    grid-template-rows: repeat(10, 40px);
+
     gap: 2px;
     background: #ddd;
     padding: 2px;
 }
 
 .grid-cell {
-    width: 40px;
-    height: 40px;
+
     background: #fafafa;
     border: 1px solid #ccc;
 }
 
-.blocks-queue {
-    display: flex;
-    gap: 10px;
-    margin-top: 10px;
+
 }
 
 .block {
     display: inline-grid;
     gap: 2px;
-    cursor: grab;
-}
 
-.block-cell {
-    width: 40px;
-    height: 40px;
     border-radius: 4px;
     box-shadow: inset 0 0 2px rgba(0,0,0,0.3);
 }
